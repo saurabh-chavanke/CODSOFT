@@ -13,7 +13,6 @@ int main()
     int iNo=0,guess=0,attempt=0;
     srand(time(0));
     iNo=rand()%100;
-    cout<<iNo<<endl;
     cout<<"*** Guess Number Game ***\n"<<endl;
     do
     {
